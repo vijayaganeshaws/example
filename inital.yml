@@ -1,0 +1,11 @@
+---
+- name: First ansible proj
+  hosts: web-servers
+  become: yes
+  roles:
+    - hostcheck  
+- name: module tsting
+  hosts: web-servers
+  gather_facts: yes  
+  roles:
+    - task

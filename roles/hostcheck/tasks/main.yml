@@ -1,0 +1,5 @@
+---
+  - name: "ping test"
+    ping:
+  - name: "hostname check"
+    command: hostname

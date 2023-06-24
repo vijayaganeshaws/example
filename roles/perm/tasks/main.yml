@@ -1,0 +1,10 @@
+---
+# tasks file for perm
+- name: changing file permissions
+  file: 
+    path: /root/test/main.yml
+    owner: "{{ item }}"
+  with_items:    
+     - VJ
+     - DQ
+
