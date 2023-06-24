@@ -1,3 +1,4 @@
+#invetory file
 ip-172-31-14-176
 
 [web-servers]
